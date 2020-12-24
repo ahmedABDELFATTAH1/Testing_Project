@@ -104,7 +104,7 @@ public class Menu {
     }
 
     public void viewRooms() {
-        for (int x = 1; x < 11; x++) {
+        for (int x = 0; x < 10; x++) {
             //This will display the room number and the current owner's name
             if (!myHotel[x].getName().equals("e")) {
                 System.out.println("Room No. " + x + " occupied by " + myHotel[x].getName());
@@ -127,7 +127,7 @@ public class Menu {
                     System.out.println("This room is occupied by: Mr. " + myHotel[roomNum].getName());
                     System.out.println("");
                     //checks whether the input is within the proper range
-                } else if (roomNum >= 1 && roomNum < 11) {
+                } else if (roomNum >= 0 && roomNum < 10) {
                     invalidRoomNumber = false;
                     //Error message to be displayed
                 } else {
@@ -165,7 +165,7 @@ public class Menu {
 
     public void displayEmptyRooms() {
         //this method will display all the empty rooms
-        for (int x = 1; x < 11; x++) {
+        for (int x = 0; x < 10; x++) {
             if (myHotel[x].getName().equals("e")) {
                 System.out.println("room " + x + " is empty");
             }
@@ -223,7 +223,7 @@ public class Menu {
         String find = find_room;
 
 
-        for (int n = 1; n < 11; n++) {
+        for (int n = 0; n < 10; n++) {
             //used equalsIgnoreCase to avoid case sensitive issues while searching for a customer
             //this method will find the room's number which is currently being occupied by the mentioned customer
             if (myHotel[n].getName().equalsIgnoreCase(find)) {
@@ -239,7 +239,7 @@ public class Menu {
 
             String[] storage = new String[11];
 
-            for (int y = 1; y < 11; y++) {
+            for (int y = 0; y < 10; y++) {
                 storage[y] = myHotel[y].getName();
             }
 
@@ -277,7 +277,7 @@ public class Menu {
             //reading Data from the Text File
             BufferedReader reader = new BufferedReader(new FileReader("data.txt"));
 
-            for (int x = 1; x < 11; x++) {
+            for (int x = 0; x < 10; x++) {
                 String read = reader.readLine(); //Reads String value stored in the Text File
                 if (read.equals("Empty Room " + x)) {
                     read = "e";
