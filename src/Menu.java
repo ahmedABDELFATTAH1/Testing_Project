@@ -103,18 +103,21 @@ public class Menu {
         }
     }
 
-    public void viewRooms() {
+    public String[] viewRooms() {
+        String[] myList = new String [10];
         for (int x = 0; x < 10; x++) {
             //This will display the room number and the current owner's name
             if (!myHotel[x].getName().equals("e")) {
-                System.out.println("Room No. " + x + " occupied by " + myHotel[x].getName());
+//                System.out.println("Room No. " + x + " occupied by " + myHotel[x].getName());
+                myList[x] = myHotel[x].getName();
                 //This will display the rooms which are currently Empty
             } else {
-                System.out.println("Room No. " + x + " is empty");
+//                System.out.println("Room No. " + x + " is empty");
+                myList[x] = "empty";
             }
-
         }
-        menu();
+        return myList;
+//        menu();
     }
 
     public void addCustomer(int room_number, String room_name) {

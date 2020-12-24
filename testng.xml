@@ -6,6 +6,7 @@
         <classes>
             <class name="Alpha_OrderingTest"></class>
             <class name="Find_Rooms_Test"></class>
+            <class name="View_Rooms_Test"></class>
         </classes>
     </test>
 </suite>

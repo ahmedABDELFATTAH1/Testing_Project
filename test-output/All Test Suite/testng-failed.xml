@@ -3,6 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
   <test thread-count="5" name="C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/src(failed)">
     <classes>
+      <class name="View_Rooms_Test">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase5"/>
+        </methods>
+      </class> <!-- View_Rooms_Test -->
       <class name="Alpha_OrderingTest">
         <methods>
           <include name="test_rooms4"/>
