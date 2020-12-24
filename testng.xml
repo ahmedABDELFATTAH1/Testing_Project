@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/src">
+        <classes>
+            <class name="Alpha_OrderingTest"></class>
+            <class name="Find_Rooms_Test"></class>
+        </classes>
+    </test>
+</suite>
