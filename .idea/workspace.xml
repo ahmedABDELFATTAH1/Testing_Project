@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="434634a5-aad0-48b3-86ea-6c3333c1cb37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/View_Rooms_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Add_Customers_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Display_Empty_Rooms_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel Program Classes and Objects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Program Classes and Objects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Alpha_OrderingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Alpha_OrderingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Find_Rooms_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Find_Rooms_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/View_Rooms_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/View_Rooms_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
@@ -65,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jcommander-1.27.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -76,39 +84,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/testng.xml">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Hotel Program Classes and Objects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Hotel Program Classes and Objects" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter" />
-        <listener class="org.testng.reporters.FailedReporter" />
-      </listeners>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Find_Rooms_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Add_Customers_Test">
+    <configuration name="Add_Customers_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Find_Rooms_Test" />
+      <option name="MAIN_CLASS_NAME" value="Add_Customers_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -116,11 +96,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Find_Rooms_Test.Test_Rooms4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Add_Customers_Test.addCustomerTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Find_Rooms_Test" />
-      <option name="METHOD_NAME" value="Test_Rooms4" />
+      <option name="MAIN_CLASS_NAME" value="Add_Customers_Test" />
+      <option name="METHOD_NAME" value="addCustomerTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,10 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="View_Rooms_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Add_Customers_Test.addCustomerTest3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="View_Rooms_Test" />
+      <option name="MAIN_CLASS_NAME" value="Add_Customers_Test" />
+      <option name="METHOD_NAME" value="addCustomerTest3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Display_Empty_Rooms_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hotel Program Classes and Objects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Display_Empty_Rooms_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -139,24 +131,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Display_Empty_Rooms_Test.displayEmptyRoomsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hotel Program Classes and Objects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Display_Empty_Rooms_Test" />
+      <option name="METHOD_NAME" value="displayEmptyRoomsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/testng.xml" />
-      <item itemvalue="TestNG.Find_Rooms_Test" />
-      <item itemvalue="TestNG.Find_Rooms_Test.Test_Rooms4" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="TestNG.View_Rooms_Test" />
+      <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest1" />
+      <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest3" />
+      <item itemvalue="TestNG.Display_Empty_Rooms_Test.displayEmptyRoomsTest" />
+      <item itemvalue="TestNG.Display_Empty_Rooms_Test" />
+      <item itemvalue="TestNG.Add_Customers_Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/testng.xml" />
-        <item itemvalue="TestNG.View_Rooms_Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.Find_Rooms_Test" />
-        <item itemvalue="TestNG.Find_Rooms_Test.Test_Rooms4" />
+        <item itemvalue="TestNG.Add_Customers_Test" />
+        <item itemvalue="TestNG.Display_Empty_Rooms_Test.displayEmptyRoomsTest" />
+        <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest3" />
+        <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest1" />
+        <item itemvalue="TestNG.Display_Empty_Rooms_Test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -194,81 +198,20 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1608750386163">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1608750386163" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608818662395">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608818662395" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608816311077">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1608816311077" />
-    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608818642799">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1608818642799" />
-    <state width="423" height="438" key="DebuggerActiveHint" timestamp="1608812759603">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="423" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1608812759603" />
-    <state x="410" y="105" key="FileChooserDialogImpl" timestamp="1608802756309">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="410" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608802756309" />
-    <state width="1493" height="306" key="GridCell.Tab.0.bottom" timestamp="1608840250001">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608819087481" />
-    <state width="1493" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608840250001" />
-    <state width="1493" height="306" key="GridCell.Tab.0.center" timestamp="1608840250000">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608819087480" />
-    <state width="1493" height="306" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608840250000" />
-    <state width="1493" height="306" key="GridCell.Tab.0.left" timestamp="1608840250000">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608819087480" />
-    <state width="1493" height="306" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608840250000" />
-    <state width="1493" height="306" key="GridCell.Tab.0.right" timestamp="1608840250000">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1323" height="117" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608819087480" />
-    <state width="1493" height="306" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608840250000" />
-    <state width="1323" height="336" key="GridCell.Tab.1.bottom" timestamp="1608818245540">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="336" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608818245540" />
-    <state width="1323" height="336" key="GridCell.Tab.1.center" timestamp="1608818245540">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="336" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1608818245540" />
-    <state width="1323" height="336" key="GridCell.Tab.1.left" timestamp="1608818245540">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="336" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1608818245540" />
-    <state width="1323" height="336" key="GridCell.Tab.1.right" timestamp="1608818245540">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="336" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1608818245540" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1608817643885">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608817643885" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1608837733347">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608837733347" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608802329482">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608802329482" />
-  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Display_Empty_Rooms_Test.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="rooms[i]" language="JAVA" />

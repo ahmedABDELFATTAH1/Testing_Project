@@ -162,7 +162,7 @@ public class Menu {
             //Setting the customer name
             myHotel[roomNum].setName(roomName);
             queueObj.addToQueue(roomName);
-
+            // menu();
 
     }
 
@@ -174,7 +174,7 @@ public class Menu {
             }
         }
         System.out.println("");
-        menu();
+        // menu();
     }
 
     private void deleteCustomer() {
