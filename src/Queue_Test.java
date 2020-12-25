@@ -67,7 +67,7 @@ public class Queue_Test {
 
     }
 
-    //till now queue.queueItems = {test_0, test_1, test_2, test_3, test_4, test_5, afterFillTest}
+    //till now queue.queueItems = {test_1, test_2, test_3, test_4, test_5, test_6, afterFillTest}
     @Test(priority = 4)
     void takeFromQueueTest(){
         System.out.println("takeFromQueueTest started ....");
@@ -79,17 +79,17 @@ public class Queue_Test {
         }
 
         if(queue.end == temp-1){
-            Assert.fail("error: after take \"test_0\", queue.end didn't decrement by one ");
+            Assert.fail("error: after take \"test_1\", queue.end didn't decrement by one ");
         }
 
         if(!queue.queueItems[6].equals("e")){
-            Assert.fail("error: after take \"test_0\", queue.queueItems[6] 1= \"e\" ");
+            Assert.fail("error: after take \"test_1\", queue.queueItems[6] != \"e\" ");
         }
         System.out.println("takeFromQueueTest done");
     }
 
     //display method which displays the first 3 customers and also removes them instantly from the queue array
-    //till now queue.queueItems = {test_1, test_2, test_3, test_4, test_5, afterFillTest}
+    //till now queue.queueItems = {test_2, test_3, test_4, test_5, test_6, afterFillTest}
     //so after 2 calls, queue should me empty and queue.end = 0 and queue.queueItem[queue.front] = "e"
     @Test(priority = 5)
     void displayQueueTest(){
