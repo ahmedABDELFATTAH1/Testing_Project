@@ -88,7 +88,7 @@ public class Integration_Testing {
         Assert.assertEquals(out, 4);
         Assert.assertEquals(queue.queueItems[6],"e");
     }
-    @Test (priority = 2)
+    @Test(priority = 2)
     void test_display_find(){
         InputStream sysInBackup = System.in;
         ByteArrayInputStream in = new ByteArrayInputStream("q".getBytes());

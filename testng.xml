@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="D:\reps\Testing_Project">
+    <test verbose="10" preserve-order="true" name="Test case #1">
+        <classes>
+            <class name="Queue_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #2">
+        <classes>
+            <class name="Add_Customers_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #3">
         <classes>
             <class name="Alpha_OrderingTest"></class>
-            <class name="Find_Rooms_Test"></class>
-            <class name="View_Rooms_Test"></class>
-            <class name="Add_Customers_Test"></class>
-			<class name="Display_Empty_Rooms_Test"></class>
-            <class name="Queue_Test"></class>
-            <class name="Room_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #4">
+        <classes>
             <class name="Delete_Customer_Test"></class>
             <class name="Integration_Testing"></class>
             <class name="System_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #5">
+        <classes>
+            <class name="Display_Empty_Rooms_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #6">
+        <classes>
+            <class name="Room_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #7">
+        <classes>
+            <class name="View_Rooms_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #8">
+        <classes>
             <class name="StoreDataUnitTest"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #9">
+        <classes>
+            <class name="Find_Rooms_Test"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #10">
+        <classes>
+            <class name="Integration_Testing"></class>
+        </classes>
+    </test>
+    <test verbose="10" preserve-order="true" name="Test case #11">
+        <classes>
             <class name="RetreiveDataUnitTest"></class>
         </classes>
     </test>
