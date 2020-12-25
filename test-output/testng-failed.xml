@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="C:\Users\DELL\Desktop\Testing_Project(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="D:\reps\Testing_Project(failed)">
     <classes>
-      <class name="View_Rooms_Test">
+      <class name="Add_Customers_Test">
         <methods>
-          <include name="testCase1"/>
-          <include name="testCase5"/>
+          <include name="initializeHotel"/>
+          <include name="addCustomerTest3"/>
         </methods>
-      </class> <!-- View_Rooms_Test -->
+      </class> <!-- Add_Customers_Test -->
+      <class name="Delete_Customer_Test">
+        <methods>
+          <include name="testCase5"/>
+          <include name="testCase3"/>
+          <include name="testCase9"/>
+        </methods>
+      </class> <!-- Delete_Customer_Test -->
       <class name="Find_Rooms_Test">
         <methods>
           <include name="initializeHotel"/>
@@ -22,6 +29,12 @@
           <include name="initializeHotel"/>
         </methods>
       </class> <!-- Alpha_OrderingTest -->
+      <class name="View_Rooms_Test">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase5"/>
+        </methods>
+      </class> <!-- View_Rooms_Test -->
     </classes>
-  </test> <!-- C:\Users\DELL\Desktop\Testing_Project(failed) -->
+  </test> <!-- D:\reps\Testing_Project(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

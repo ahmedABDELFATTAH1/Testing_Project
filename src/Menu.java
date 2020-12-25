@@ -15,6 +15,13 @@ public class Menu {
 
     Queue queueObj = new Queue(); //Creating an object of the Queue class
 
+    public Room[] getRooms() {
+        return myHotel;
+    }
+
+    public void setRooms(Room[] rooms) {
+        myHotel = rooms;
+    }
     public void menu() {
         System.out.println("======================================================");
         System.out.println("*            Hotel Management System                 *");
@@ -31,17 +38,13 @@ public class Menu {
         System.out.println("* Q. Quit Program                                    *");
         System.out.println("======================================================");
         System.out.println("");
-
         System.out.println("Choose one of the options from above. (E.g: Type 'V' to view all the rooms)");
-
         do {
             System.out.println();
             System.out.print("Choice : ");
             choice = input.next();
             String selection = choice.toLowerCase(); //This will convert the input value to lowercase. this will help avoid case sensitive issues.
-
             switch (selection) {
-
                 case "v":
                     String[] myList = viewRooms();
                     for (int x = 0; x < 10; x++) {
@@ -62,44 +65,37 @@ public class Menu {
                     String room_name = input.next();
                     addCustomer(room_num, room_name);
                     break;
-
                 case "e":
                     displayEmptyRooms();
                     break;
-
                 case "d":
                     System.out.println("please enter the Room's number which you want to vacate");
                     String roomNum = input.next();
                     deleteCustomer(roomNum);
                     menu();
                     break;
-
                 case "f":
                     String find_rooms = input.next();
                     findRoom(find_rooms);
                     break;
-
                 case "s":
                     storeData();
+                    menu();
                     break;
-
                 case "l":
                     retrieveData();
+                    menu();
                     break;
-
                 case "o":
                     alphabeticalOrder();
                     break;
-
                 case "3":
                     queueObj.displayQueue();
                     menu();
                     break;
-
                 case "q":
                     System.out.println("Thanks");
                     break;
-
                 default:
                     System.out.println("Invalid input! Please Enter one of these letters: V,A,E,D,F,S,L,O,Q");
             }
@@ -168,14 +164,14 @@ public class Menu {
             input.next();
         }
 
-            System.out.println("Enter the name of the customer :");
-            //Getting the customer's name
-            roomName = room_name;
-            //Setting the customer name
-            myHotel[roomNum].setName(roomName);
-            queueObj.addToQueue(roomName);
-            //menu();
 
+        System.out.println("Enter the name of the customer :");
+        //Getting the customer's name
+        roomName = room_name;
+        //Setting the customer name
+        myHotel[roomNum].setName(roomName);
+        queueObj.addToQueue(roomName);
+        // menu();
     }
 
     public void displayEmptyRooms() {
@@ -236,14 +232,16 @@ public class Menu {
         try {
             //saving Data and overwriting
 
-            String[] storage = new String[11];
+            String[] storage = new String[10];
 
             for (int y = 0; y < 10; y++) {
+                if(myHotel[y] == null)
+                    break;
                 storage[y] = myHotel[y].getName();
             }
 
             BufferedWriter bw = new BufferedWriter(new FileWriter("data.txt", false)); //used false to overwrite the file instead of appending
-            for (int x = 1; x < storage.length; x++) {
+            for (int x = 0; x < storage.length; x++) {
                 String file;
                 file = storage[x];
                 // writes Empty room if it find "e" on the array
@@ -267,7 +265,7 @@ public class Menu {
         //message to show the user that the array data has been saved to a Text file successfully
         System.out.println("Data successfully saved!");
         System.out.println("");
-        menu();
+        //menu();
     }
 
     public void retrieveData() {
@@ -278,6 +276,8 @@ public class Menu {
 
             for (int x = 0; x < 10; x++) {
                 String read = reader.readLine(); //Reads String value stored in the Text File
+                if(read == null)
+                    break;
                 if (read.equals("Empty Room " + x)) {
                     read = "e";
                 }
@@ -292,7 +292,7 @@ public class Menu {
         //Displays this message if the file is found and successfully loaded the data back from it
         System.out.println("File successfully loaded");
         System.out.println("");
-        menu();
+        //menu();
     }
 
     public void alphabeticalOrder() {

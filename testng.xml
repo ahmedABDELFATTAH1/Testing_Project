@@ -11,6 +11,10 @@
 			<class name="Display_Empty_Rooms_Test"></class>
             <class name="Queue_Test"></class>
             <class name="Room_Test"></class>
+            <class name="Delete_Customer_Test"></class>
+            <class name="Integration_Testing"></class>
+            <class name="StoreDataUnitTest"></class>
+            <class name="RetreiveDataUnitTest"></class>
         </classes>
     </test>
 </suite>
