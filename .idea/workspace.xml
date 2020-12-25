@@ -132,9 +132,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="TestNG.C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/testng.xml" />
       <item itemvalue="TestNG.Find_Rooms_Test" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="TestNG.View_Rooms_Test" />
       <item itemvalue="TestNG.Delete_Customer_Test" />
     </list>
