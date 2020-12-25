@@ -103,10 +103,9 @@ public class StoreDataUnitTest {
 	@Test
 	void store5Customers() throws IOException {
 		Menu start = new Menu();
-
 		Room[] rooms = new Room[10];
 		for (int x = 0; x < 10; x++) {
-	            rooms[x] = new Room(); //Creating 10 Room Objects
+			rooms[x] = new Room(); //Creating 10 Room Objects
 	    }
 		rooms[1].setName("Test1");
 		rooms[2].setName("Test2");
@@ -115,11 +114,8 @@ public class StoreDataUnitTest {
 		rooms[5].setName("Test5");
 		start.setRooms(rooms);
 		start.storeData();
-		
 		readData();
-		
 		for(int i = 0 ; i < data.length ; i++) {
-
 			if(i == 1)
 				assertEquals(data[i], "Test1");
 			else if(i == 2)

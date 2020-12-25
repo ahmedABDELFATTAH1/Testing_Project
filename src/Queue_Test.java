@@ -2,6 +2,11 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.io.PrintStream;
+
 public class Queue_Test {
     private Queue queue;
 
@@ -96,8 +101,31 @@ public class Queue_Test {
     void displayQueueTest(){
         System.out.println("displayQueueTest started ....");
         System.out.println("calling queue.displayQueue() till the queue becomes empty ");
+
+        InputStream sysInBackup = System.in;
+        ByteArrayInputStream in = new ByteArrayInputStream("q".getBytes());
+        System.setIn(in);
+
+        PrintStream oldOut = System.out;
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        // Change System.out to point out to our stream
+        System.setOut(new PrintStream(baos));
+
         queue.displayQueue();
         queue.displayQueue();
+
+        System.setOut(oldOut);
+        System.setIn(sysInBackup);
+
+        // Our baos has the content from the print statement
+        String output = baos.toString();
+
+        Assert.assertTrue(output.contains("Mr. test_2 Removed from the queue."));
+        Assert.assertTrue(output.contains("Mr. test_3 Removed from the queue."));
+        Assert.assertTrue(output.contains("Mr. test_4 Removed from the queue."));
+        Assert.assertTrue(output.contains("Mr. test_5 Removed from the queue."));
+        Assert.assertTrue(output.contains("Mr. test_6 Removed from the queue."));
+        Assert.assertTrue(output.contains("Mr. afterFillTest Removed from the queue."));
 
         if(queue.queueItems[queue.front] == null){
             Assert.fail("error: queue.queueItems[queue.front] != \"e\" ");

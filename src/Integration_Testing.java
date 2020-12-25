@@ -2,18 +2,33 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.io.PrintStream;
+import java.io.*;
+import java.util.ArrayList;
+
+import static org.testng.Assert.assertEquals;
 
 public class Integration_Testing {
     // add customer **  -------               view rooms   -------                   initialize  --------
-    // delete customer   ------               display empty rooms   -------                find rooms
+    // delete customer   ------               display empty rooms   -------                find rooms --------
     // retrieve data                    alphabetical order                  store data
 
     Menu menu = null; //Creating an object of the Menu class
     Queue queue;
+    String[] data = new String[10];
+    void readData() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("data.txt"));
+        for (int x = 0; x < 10; x++) {
+            String read = reader.readLine(); //Reads String value stored in the Text File
+            if(read == null)
+                break;
+            if (read.equals("Empty Room " + x)) {
+                read = "e";
+            }
+            //Stored the data in the Hotel Array
+            data[x] = read;
+        }
+    }
+
     @BeforeClass
     void initializationTest(){
         System.out.println("This is initialization test");
@@ -30,8 +45,8 @@ public class Integration_Testing {
         }
     }
 
-    @Test
-    void test1(){
+    @Test(priority = 0)
+    void test_add_queue(){
         System.out.println("This is test case # 1");
         menu.addCustomer(0,"Waleed");
         menu.addCustomer(1,"Ali");
@@ -45,6 +60,9 @@ public class Integration_Testing {
         Assert.assertEquals(queue.queueItems[1],"Ali");
         Assert.assertEquals(queue.queueItems[2],"Ta7aaaaaa");
         Assert.assertEquals(queue.queueItems[3],"Ezzat");
+    }
+    @Test(priority = 1)
+    void test_view_delete(){
         String[] output = menu.viewRooms();
         for (int x = 0; x < 10; x++) {
             if(x==0 && !output[x].equals("Waleed")){
@@ -65,9 +83,13 @@ public class Integration_Testing {
         }
         int out = menu.deleteCustomer("0");
         Assert.assertEquals(out, 3);
+        Assert.assertEquals(queue.queueItems[0],"e");
         out = menu.deleteCustomer("5");
         Assert.assertEquals(out, 4);
-
+        Assert.assertEquals(queue.queueItems[6],"e");
+    }
+    @Test (priority = 2)
+    void test_display_find(){
         InputStream sysInBackup = System.in;
         ByteArrayInputStream in = new ByteArrayInputStream("q".getBytes());
         System.setIn(in);
@@ -89,6 +111,26 @@ public class Integration_Testing {
             if (menu.myHotel[x].getName().equals("e")) {
                 Assert.assertTrue(output2.contains("room " + x + " is empty"));
             }
+        }
+        String room_name = "dal";
+        Boolean result = menu.findRoom(room_name);
+        Assert.assertFalse(result);
+    }
+
+    @Test(priority = 3)
+    void store_retrieve() throws IOException {
+        menu.storeData();
+        menu.retrieveData();
+        Room[] r = menu.getRooms();
+        for(int i = 0 ; i <r.length ; i ++) {
+            if(i == 1)
+                assertEquals(r[i].getName(), "Ali");
+            else if(i == 8)
+                assertEquals(r[i].getName(), "Ta7aaaaaa");
+            else if(i == 9)
+                assertEquals(r[i].getName(), "Ezzat");
+            else
+                assertEquals(r[i].getName(), "e");
         }
     }
 }

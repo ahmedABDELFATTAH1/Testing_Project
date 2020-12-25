@@ -9,12 +9,6 @@
           <include name="addCustomerTest3"/>
         </methods>
       </class> <!-- Add_Customers_Test -->
-      <class name="View_Rooms_Test">
-        <methods>
-          <include name="testCase1"/>
-          <include name="testCase5"/>
-        </methods>
-      </class> <!-- View_Rooms_Test -->
       <class name="Delete_Customer_Test">
         <methods>
           <include name="testCase5"/>
@@ -22,6 +16,12 @@
           <include name="testCase9"/>
         </methods>
       </class> <!-- Delete_Customer_Test -->
+      <class name="Find_Rooms_Test">
+        <methods>
+          <include name="initializeHotel"/>
+          <include name="Test_Rooms2"/>
+        </methods>
+      </class> <!-- Find_Rooms_Test -->
       <class name="Alpha_OrderingTest">
         <methods>
           <include name="test_rooms4"/>
@@ -29,12 +29,12 @@
           <include name="initializeHotel"/>
         </methods>
       </class> <!-- Alpha_OrderingTest -->
-      <class name="Find_Rooms_Test">
+      <class name="View_Rooms_Test">
         <methods>
-          <include name="initializeHotel"/>
-          <include name="Test_Rooms2"/>
+          <include name="testCase1"/>
+          <include name="testCase5"/>
         </methods>
-      </class> <!-- Find_Rooms_Test -->
+      </class> <!-- View_Rooms_Test -->
     </classes>
   </test> <!-- D:\reps\Testing_Project(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
