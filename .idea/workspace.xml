@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3317fc52-4d1d-4e9d-9207-7c8734aaedec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Find_Rooms_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Find_Rooms_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,8 +37,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.Queue_Test">
+  <component name="RunManager" selected="TestNG.System_Test.systemTestCase3">
+    <configuration name="Find_Rooms_Test.Test_Rooms2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hotel Program Classes and Objects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Find_Rooms_Test" />
+      <option name="METHOD_NAME" value="Test_Rooms2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Queue_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
@@ -43,11 +65,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Room_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="System_Test.systemTestCase1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Room_Test" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="System_Test" />
+      <option name="METHOD_NAME" value="systemTestCase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="System_Test.systemTestCase2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hotel Program Classes and Objects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="System_Test" />
+      <option name="METHOD_NAME" value="systemTestCase2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="System_Test.systemTestCase3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hotel Program Classes and Objects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="System_Test" />
+      <option name="METHOD_NAME" value="systemTestCase3" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -56,11 +103,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.System_Test.systemTestCase3" />
+        <item itemvalue="TestNG.System_Test.systemTestCase2" />
+        <item itemvalue="TestNG.System_Test.systemTestCase1" />
+        <item itemvalue="TestNG.Find_Rooms_Test.Test_Rooms2" />
         <item itemvalue="TestNG.Queue_Test" />
-        <item itemvalue="TestNG.Room_Test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,23 +129,5 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1608899231468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608899231468" />
-    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1608899231468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608899231468" />
-    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1608899231467">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608899231467" />
-    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1608899231468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608899231468" />
   </component>
 </project>
