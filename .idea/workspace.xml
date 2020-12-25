@@ -1,38 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="434634a5-aad0-48b3-86ea-6c3333c1cb37" name="Default Changelist" comment="">
+    <list default="true" id="3317fc52-4d1d-4e9d-9207-7c8734aaedec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Add_Customers_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Display_Empty_Rooms_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue_Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Room_Test.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Add_Customers_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Delete_Customer_Test.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Display_Empty_Rooms_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Queue_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Room_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel Program Classes and Objects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Program Classes and Objects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Alpha_OrderingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Alpha_OrderingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Find_Rooms_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Find_Rooms_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/View_Rooms_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/View_Rooms_Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,58 +28,28 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1m4QQ4EfB75Coe1kxlKsDcswggu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1m9GEwdMZu61aa5Otdm4R45geR0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jcommander-1.27.jar" />
-    <property name="last_opened_file_path" value="D:/Programs/JetBrains/IdeaProjects/Hotel-Management-System-Java-OOP-CLI-master" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.Add_Customers_Test">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Hotel Program Classes and Objects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Add_Customers_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Room_Test">
+    <configuration name="Queue_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Add_Customers_Test" />
+      <option name="MAIN_CLASS_NAME" value="Queue_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -101,120 +57,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Add_Customers_Test.addCustomerTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Room_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Add_Customers_Test" />
-      <option name="METHOD_NAME" value="addCustomerTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Room_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Add_Customers_Test.addCustomerTest3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Hotel Program Classes and Objects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Add_Customers_Test" />
-      <option name="METHOD_NAME" value="addCustomerTest3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Display_Empty_Rooms_Test.displayEmptyRoomsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Hotel Program Classes and Objects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Display_Empty_Rooms_Test" />
-      <option name="METHOD_NAME" value="displayEmptyRoomsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest1" />
-      <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest3" />
-      <item itemvalue="TestNG.Display_Empty_Rooms_Test.displayEmptyRoomsTest" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="TestNG.Add_Customers_Test" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Add_Customers_Test" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="TestNG.Display_Empty_Rooms_Test.displayEmptyRoomsTest" />
-        <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest3" />
-        <item itemvalue="TestNG.Add_Customers_Test.addCustomerTest1" />
+        <item itemvalue="TestNG.Room_Test" />
+        <item itemvalue="TestNG.Queue_Test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="434634a5-aad0-48b3-86ea-6c3333c1cb37" name="Default Changelist" comment="" />
-      <created>1608750363497</created>
+      <changelist id="3317fc52-4d1d-4e9d-9207-7c8734aaedec" name="Default Changelist" comment="" />
+      <created>1608897532340</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608750363497</updated>
-      <workItem from="1608750364645" duration="4267000" />
-      <workItem from="1608802225236" duration="7392000" />
-      <workItem from="1608815102905" duration="3117000" />
-      <workItem from="1608818346363" duration="732000" />
-      <workItem from="1608826984233" duration="291000" />
-      <workItem from="1608834932357" duration="12794000" />
+      <updated>1608897532340</updated>
+      <workItem from="1608897537887" duration="715000" />
+      <workItem from="1608898300362" duration="725000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.NoSuchElementException" package="java.util" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Display_Empty_Rooms_Test.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="TestNG">
-        <watch expression="rooms[i]" language="JAVA" />
-        <watch expression="rooms[1]" language="JAVA" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Hotel_Program_Classes_and_Objects$C__Users_besma_OneDrive_Desktop_Hotel_Management_System_Java_OOP_CLI_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1608819013718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Hotel_Program_Classes_and_Objects$Alpha_OrderingTest_test_rooms.ic" NAME="Alpha_OrderingTest.test_rooms Coverage Results" MODIFIED="1608813240380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
