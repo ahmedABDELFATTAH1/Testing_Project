@@ -13,6 +13,7 @@
             <class name="Room_Test"></class>
             <class name="Delete_Customer_Test"></class>
             <class name="Integration_Testing"></class>
+            <class name="System_Test"></class>
             <class name="StoreDataUnitTest"></class>
             <class name="RetreiveDataUnitTest"></class>
         </classes>
