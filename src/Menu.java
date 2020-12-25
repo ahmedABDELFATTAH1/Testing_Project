@@ -164,6 +164,7 @@ public class Menu {
             input.next();
         }
 
+
         System.out.println("Enter the name of the customer :");
         //Getting the customer's name
         roomName = room_name;
@@ -171,7 +172,6 @@ public class Menu {
         myHotel[roomNum].setName(roomName);
         queueObj.addToQueue(roomName);
         // menu();
-
     }
 
     public void displayEmptyRooms() {
