@@ -168,13 +168,13 @@ public class Menu {
             input.next();
         }
 
-        System.out.println("Enter the name of the customer :");
-        //Getting the customer's name
-        roomName = room_name;
-        //Setting the customer name
-        myHotel[roomNum].setName(roomName);
-        queueObj.addToQueue(roomName);
-
+            System.out.println("Enter the name of the customer :");
+            //Getting the customer's name
+            roomName = room_name;
+            //Setting the customer name
+            myHotel[roomNum].setName(roomName);
+            queueObj.addToQueue(roomName);
+            // menu();
 
     }
 
@@ -186,7 +186,7 @@ public class Menu {
             }
         }
         System.out.println("");
-        menu();
+        // menu();
     }
 
     public int deleteCustomer(String customerNumber) {

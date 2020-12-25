@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
-  <test thread-count="5" name="C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/src(failed)">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:\Users\DELL\Desktop\Testing_Project(failed)">
     <classes>
       <class name="View_Rooms_Test">
         <methods>
@@ -9,6 +9,12 @@
           <include name="testCase5"/>
         </methods>
       </class> <!-- View_Rooms_Test -->
+      <class name="Find_Rooms_Test">
+        <methods>
+          <include name="initializeHotel"/>
+          <include name="Test_Rooms2"/>
+        </methods>
+      </class> <!-- Find_Rooms_Test -->
       <class name="Alpha_OrderingTest">
         <methods>
           <include name="test_rooms4"/>
@@ -16,12 +22,6 @@
           <include name="initializeHotel"/>
         </methods>
       </class> <!-- Alpha_OrderingTest -->
-      <class name="Find_Rooms_Test">
-        <methods>
-          <include name="initializeHotel"/>
-          <include name="Test_Rooms2"/>
-        </methods>
-      </class> <!-- Find_Rooms_Test -->
     </classes>
-  </test> <!-- C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/src(failed) -->
+  </test> <!-- C:\Users\DELL\Desktop\Testing_Project(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

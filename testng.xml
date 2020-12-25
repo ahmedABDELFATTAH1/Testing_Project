@@ -2,11 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/besma/OneDrive/Desktop/Hotel-Management-System-Java-OOP-CLI/src">
+          name="D:\reps\Testing_Project">
         <classes>
             <class name="Alpha_OrderingTest"></class>
             <class name="Find_Rooms_Test"></class>
             <class name="View_Rooms_Test"></class>
+            <class name="Add_Customers_Test"></class>
+			<class name="Display_Empty_Rooms_Test"></class>
+            <class name="Queue_Test"></class>
+            <class name="Room_Test"></class>
         </classes>
     </test>
 </suite>
