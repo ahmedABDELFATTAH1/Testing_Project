@@ -74,8 +74,8 @@ public class Queue_Test {
 
         int temp = queue.end;
         queue.takeFromQueue();
-        if(!queue.queueItems[queue.front].equals("test_1")){
-            Assert.fail("error: after take \"test_0\", queue.queueItems[0]="+queue.queueItems[queue.front] +" instead of \"test_1\"");
+        if(!queue.queueItems[queue.front].equals("test_2")){
+            Assert.fail("error: after take \"test_1\", queue.queueItems[0]="+queue.queueItems[queue.front] +" instead of \"test_2\"");
         }
 
         if(queue.end == temp-1){
@@ -98,7 +98,7 @@ public class Queue_Test {
         queue.displayQueue();
         queue.displayQueue();
 
-        if(!queue.queueItems[queue.front].equals("e")){
+        if(queue.queueItems[queue.front] == null){
             Assert.fail("error: queue.queueItems[queue.front] != \"e\" ");
         }
 
@@ -112,7 +112,6 @@ public class Queue_Test {
         if(queue.end != 0){
             Assert.fail("error: queue.end = "+Integer.toString(queue.end)+", it must = 0 !!!");
         }
-
         System.out.println("displayQueueTest done ");
     }
 }
