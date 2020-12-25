@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -44,14 +43,24 @@ public class Menu {
             switch (selection) {
 
                 case "v":
-                    viewRooms();
+                    String[] myList = viewRooms();
+                    for (int x = 0; x < 10; x++) {
+                        //This will display the room number and the current owner's name
+                        if (!myList[x].equals("e")) {
+                            System.out.println("Room No. " + x + " occupied by " + myList[x]);
+                            //This will display the rooms which are currently Empty
+                        } else {
+                            System.out.println("Room No. " + x + " is empty");
+                        }
+                    }
+                    menu();
                     break;
                 case "a":
                     System.out.println("Enter room number (1-10)");
                     int room_num = input.nextInt();
                     System.out.println("Enter person name");
                     String room_name = input.next();
-                    addCustomer(room_num,room_name);
+                    addCustomer(room_num, room_name);
                     break;
 
                 case "e":
@@ -59,7 +68,10 @@ public class Menu {
                     break;
 
                 case "d":
-                    deleteCustomer();
+                    System.out.println("please enter the Room's number which you want to vacate");
+                    String roomNum = input.next();
+                    deleteCustomer(roomNum);
+                    menu();
                     break;
 
                 case "f":
@@ -104,7 +116,7 @@ public class Menu {
     }
 
     public String[] viewRooms() {
-        String[] myList = new String [10];
+        String[] myList = new String[10];
         for (int x = 0; x < 10; x++) {
             //This will display the room number and the current owner's name
             if (!myHotel[x].getName().equals("e")) {
@@ -122,39 +134,39 @@ public class Menu {
 
     public void addCustomer(int room_number, String room_name) {
         boolean invalidRoomNumber; //Declaration of a boolean variable.
-            try {
-                roomNum = room_number;
-                //checks whether the room is already occupied or not
-                if (!myHotel[roomNum].getName().equals("e")) {
-                    invalidRoomNumber = true;
-                    System.out.println("This room is occupied by: Mr. " + myHotel[roomNum].getName());
-                    System.out.println("");
-                    //checks whether the input is within the proper range
-                } else if (roomNum >= 0 && roomNum < 10) {
-                    invalidRoomNumber = false;
-                    //Error message to be displayed
-                } else {
-                    invalidRoomNumber = true;
-                    System.out.println("Invalid input! Please Enter a value between 1-10");
-                    System.out.println("");
-                }
-                //if the input is out of the range of the hotel array this will catch it
-            } catch (IndexOutOfBoundsException e) {
+        try {
+            roomNum = room_number;
+            //checks whether the room is already occupied or not
+            if (!myHotel[roomNum].getName().equals("e")) {
+                invalidRoomNumber = true;
+                System.out.println("This room is occupied by: Mr. " + myHotel[roomNum].getName());
+                System.out.println("");
+                //checks whether the input is within the proper range
+            } else if (roomNum >= 0 && roomNum < 10) {
+                invalidRoomNumber = false;
+                //Error message to be displayed
+            } else {
                 invalidRoomNumber = true;
                 System.out.println("Invalid input! Please Enter a value between 1-10");
                 System.out.println("");
-                //to deal with exceptions regarding null values
-            } catch (NullPointerException e) {
-                invalidRoomNumber = true;
-                System.out.println("Invalid input! Please Enter a value between 1-10");
-                System.out.println("");
-                //to deal with inputs other than integers
-            } catch (InputMismatchException e) {
-                invalidRoomNumber = true;
-                System.out.println("Invalid input! Please Enter a value between 1-10");
-                System.out.println("");
-                input.next();
             }
+            //if the input is out of the range of the hotel array this will catch it
+        } catch (IndexOutOfBoundsException e) {
+            invalidRoomNumber = true;
+            System.out.println("Invalid input! Please Enter a value between 1-10");
+            System.out.println("");
+            //to deal with exceptions regarding null values
+        } catch (NullPointerException e) {
+            invalidRoomNumber = true;
+            System.out.println("Invalid input! Please Enter a value between 1-10");
+            System.out.println("");
+            //to deal with inputs other than integers
+        } catch (InputMismatchException e) {
+            invalidRoomNumber = true;
+            System.out.println("Invalid input! Please Enter a value between 1-10");
+            System.out.println("");
+            input.next();
+        }
 
             System.out.println("Enter the name of the customer :");
             //Getting the customer's name
@@ -177,47 +189,31 @@ public class Menu {
         // menu();
     }
 
-    private void deleteCustomer() {
+    public int deleteCustomer(String customerNumber) {
+        if (!customerNumber.matches("[0-9]+")) {
+            System.out.println("Invalid input! Please Enter a value between 1-10");
+            return 0;
+        }
+        roomNum = Integer.parseInt(customerNumber);
+        if (roomNum < 0 || roomNum > 9) {
+            System.out.println("Invalid room number. Please enter a value between 0-9");
+            return 1;
+        }
+        //if the hotel room is not empty then this will delete the customer from that room
+        if (!(myHotel[roomNum].getName().equals("e"))) {
 
-        boolean invalidInput;
+            myHotel[roomNum].setName("e");
+            System.out.println("Room " + roomNum + " has successfully been vacated");
 
-        do {
-            invalidInput = false;
-            try {
-                System.out.println("please enter the Room's number which you want to vacate");
-                roomNum = input.nextInt();
+            System.out.println("");
+            return 3;
+            //if the room is already empty then this message will be displayed
+        } else {
 
-                //if the hotel room is not empty then this will delete the customer from that room
-                if (!(myHotel[roomNum].getName().equals("e"))) {
-                    invalidInput = false;
-                    myHotel[roomNum].setName("e");
-
-                    //if the room is already empty then this message will be displayed
-                } else {
-                    invalidInput = true;
-                    System.out.println("Room " + roomNum + " is already Empty");
-                    System.out.println("");
-                }
-
-                //if the input is not an integer value then this will catch it
-            } catch (InputMismatchException e) {
-                invalidInput = true;
-                System.out.println("Invalid input! Please Enter a value between 1-10");
-                System.out.println("");
-                input.next();
-
-                //if the input is out of the range of the hotel array this will catch it
-            } catch (IndexOutOfBoundsException e) {
-                invalidInput = true;
-                System.out.println("Invalid room number. Please enter a value between 1-10");
-                input.next();
-            }
-
-        } while (invalidInput);//This will print the room's number which has been successfully vacated
-        System.out.println("Room " + roomNum + " has successfully been vacated");
-
-        System.out.println("");
-        menu();
+            System.out.println("Room " + roomNum + " is already Empty");
+            System.out.println("");
+            return 4;
+        }
     }
 
     public Boolean findRoom(String find_room) {
@@ -233,7 +229,7 @@ public class Menu {
                 return true;
             }
         }
-       return false;
+        return false;
     }
 
     public void storeData() {
