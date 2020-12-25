@@ -82,8 +82,9 @@ public class Queue_Test {
             Assert.fail("error: after take \"test_1\", queue.end didn't decrement by one ");
         }
 
-        if(!queue.queueItems[6].equals("e")){
-            Assert.fail("error: after take \"test_1\", queue.queueItems[6] != \"e\" ");
+
+        if(queue.queueItems[6] == null){
+            Assert.fail("error: after take \"test_0\", queue.queueItems[6] != \"e\" ");
         }
         System.out.println("takeFromQueueTest done");
     }
