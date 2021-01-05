@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3317fc52-4d1d-4e9d-9207-7c8734aaedec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Queue_Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel Program Classes and Objects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel Program Classes and Objects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Add_Customers_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Add_Customers_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Alpha_OrderingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Alpha_OrderingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Delete_Customer_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Delete_Customer_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Display_Empty_Rooms_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hotel Program Classes and Objects/Display_Empty_Rooms_Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1m9GEwdMZu61aa5Otdm4R45geR0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,8 +36,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/DRIVERS/jcommander-1.27.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="TestNG.Queue_Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Hotel Program Classes and Objects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Queue_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hotel Program Classes and Objects" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,13 +71,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="TestNG.Queue_Test" />
+      <item itemvalue="TestNG.Room_Test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Queue_Test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.Room_Test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,22 +103,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1608899231468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608899231468" />
-    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1608899231468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608899231468" />
-    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1608899231467">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608899231467" />
-    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1608899231468">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608899231468" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Hotel_Program_Classes_and_Objects$C__Users_besma_OneDrive_Desktop_Hotel_Management_System_Java_OOP_CLI_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1608819013718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Hotel_Program_Classes_and_Objects$Queue_Test.ic" NAME="Queue_Test Coverage Results" MODIFIED="1608883664564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Hotel_Program_Classes_and_Objects$Alpha_OrderingTest_test_rooms.ic" NAME="Alpha_OrderingTest.test_rooms Coverage Results" MODIFIED="1608813240380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
