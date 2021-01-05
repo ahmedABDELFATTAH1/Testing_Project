@@ -47,6 +47,7 @@ public class Delete_Customer_Test {
         menu =new Menu();
         String input = "1";
         int ouput = menu.deleteCustomer(input);
+//        Assert.assertThrows();
     }
 
     @Test

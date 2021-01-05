@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Hotel Program Classes and Objects(failed)">
+    <classes>
+      <class name="View_Rooms_Test">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase5"/>
+        </methods>
+      </class> <!-- View_Rooms_Test -->
+      <class name="Find_Rooms_Test">
+        <methods>
+          <include name="initializeHotel"/>
+          <include name="Test_Rooms2"/>
+        </methods>
+      </class> <!-- Find_Rooms_Test -->
+      <class name="Integration_Testing">
+        <methods>
+          <include name="test_view_delete"/>
+          <include name="initializationTest"/>
+        </methods>
+      </class> <!-- Integration_Testing -->
+      <class name="Alpha_OrderingTest">
+        <methods>
+          <include name="test_rooms4"/>
+          <include name="test_sort_full_rooms"/>
+          <include name="initializeHotel"/>
+        </methods>
+      </class> <!-- Alpha_OrderingTest -->
+      <class name="Add_Customers_Test">
+        <methods>
+          <include name="initializeHotel"/>
+          <include name="addCustomerTest3"/>
+        </methods>
+      </class> <!-- Add_Customers_Test -->
+      <class name="Delete_Customer_Test">
+        <methods>
+          <include name="testCase5"/>
+          <include name="testCase3"/>
+          <include name="testCase9"/>
+        </methods>
+      </class> <!-- Delete_Customer_Test -->
+    </classes>
+  </test> <!-- Hotel Program Classes and Objects(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

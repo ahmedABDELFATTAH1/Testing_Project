@@ -64,7 +64,7 @@ public class Find_Rooms_Test {
         fillRooms(10,names_list);
         String room_name = "Bal";
         Boolean result = start.findRoom(room_name);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 
 

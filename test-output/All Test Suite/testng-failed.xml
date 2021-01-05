@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="C:\Users\DELL\Desktop\Testing_Project(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="Test case #1(failed)">
     <classes>
-      <class name="View_Rooms_Test">
+      <class name="Queue_Test">
         <methods>
-          <include name="testCase1"/>
-          <include name="testCase5"/>
+          <include name="initializeQueueTest"/>
+          <include name="takeFromQueueTest"/>
+          <include name="displayQueueTest"/>
         </methods>
-      </class> <!-- View_Rooms_Test -->
-      <class name="Find_Rooms_Test">
+      </class> <!-- Queue_Test -->
+    </classes>
+  </test> <!-- Test case #1(failed) -->
+  <test thread-count="5" name="Test case #2(failed)">
+    <classes>
+      <class name="Add_Customers_Test">
         <methods>
           <include name="initializeHotel"/>
-          <include name="Test_Rooms2"/>
+          <include name="addCustomerTest3"/>
         </methods>
-      </class> <!-- Find_Rooms_Test -->
+      </class> <!-- Add_Customers_Test -->
+    </classes>
+  </test> <!-- Test case #2(failed) -->
+  <test thread-count="5" name="Test case #3(failed)">
+    <classes>
       <class name="Alpha_OrderingTest">
         <methods>
           <include name="test_rooms4"/>
@@ -23,5 +32,46 @@
         </methods>
       </class> <!-- Alpha_OrderingTest -->
     </classes>
-  </test> <!-- C:\Users\DELL\Desktop\Testing_Project(failed) -->
+  </test> <!-- Test case #3(failed) -->
+  <test thread-count="5" name="Test case #4(failed)">
+    <classes>
+      <class name="Delete_Customer_Test">
+        <methods>
+          <include name="testCase5"/>
+          <include name="testCase3"/>
+          <include name="testCase9"/>
+        </methods>
+      </class> <!-- Delete_Customer_Test -->
+    </classes>
+  </test> <!-- Test case #4(failed) -->
+  <test thread-count="5" name="Test case #7(failed)">
+    <classes>
+      <class name="View_Rooms_Test">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase5"/>
+        </methods>
+      </class> <!-- View_Rooms_Test -->
+    </classes>
+  </test> <!-- Test case #7(failed) -->
+  <test thread-count="5" name="Test case #9(failed)">
+    <classes>
+      <class name="Find_Rooms_Test">
+        <methods>
+          <include name="initializeHotel"/>
+          <include name="Test_Rooms2"/>
+        </methods>
+      </class> <!-- Find_Rooms_Test -->
+    </classes>
+  </test> <!-- Test case #9(failed) -->
+  <test thread-count="5" name="Test case #10(failed)">
+    <classes>
+      <class name="Integration_Testing">
+        <methods>
+          <include name="test_view_delete"/>
+          <include name="initializationTest"/>
+        </methods>
+      </class> <!-- Integration_Testing -->
+    </classes>
+  </test> <!-- Test case #10(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
